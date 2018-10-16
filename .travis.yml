@@ -14,6 +14,7 @@ deploy:
   app: quigleysweb
   on:
     repo: mike-quigley/QuigleysWeb
+
 branches:
   only:
     - master
