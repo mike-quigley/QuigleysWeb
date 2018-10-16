@@ -1,9 +1,17 @@
 language: node_js
 node_js:
-  - 'stable'
+  - stable
 cache:
   directories:
     - node_modules
 script:
   - npm test
   - npm run build
+deploy:
+  provider: heroku
+  app: quigleysweb
+  on:
+    repo: mike-quigley/QuigleysWeb
+env:
+  global:
+    secure: m3h17MIzuqnK4S1SNjDBW0yc0wLJgWR83zlSDHho0a1e8e2PnlgLaPSAOW9vl4nhozBdzWheuUPSo5aiBhlxhIFVKiwJUt5cNWfbbOMVApGJ+aI4N1zGQ3HaFTFwlTnH5UUbFBGdfKPkAWNBziVBNIeQoGxYYMZ+Uq6U45yttLR/vCzRxwe415OLM1BwYBz5vtuoPpUEp1og6TxxBZWRpZYs0yOHQD+cRHsD7jMXwnaroyCSFOy+FAJ9sVesHDQJOgDNxvDcUUANOWsEiF+prvyQuRsQLCcuT1qijoJ+LFMegNlfSMsuMi6kMpEG16zkMePF9zqVP8YOUSdnh9xW+2D0+9zMs/pw66k9Yu3OZEoEKKb9/ash+ZIZ31g/eLMabLV0ySODl/N8lNDIhv2Yv46NcYTpCtvmv4R/CfB1VcB+iYRuwT9i1YMT3Z8QSql2gpAaeNpxiC2cbOBD2wK4TKzpYl7QJe4Yz9YF3Hur2pONClhbL1fT3FWBeCJPI8X5FgeqiUb7QL97UTFmENFQW3VWSynNOhqtjVCcS//opE46CmaleR2GWEVQfz2oxcVlgZPzK7iCDDv9J+0hZqd2RVNtQSdjxenFdN39S48L+Sqv9E2Ns6XCP5uijqbWL7jpQN7jtTUK2kS85dOPC06YptmHX181yK2szCsdX5F2c/o=
