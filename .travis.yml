@@ -11,7 +11,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: tRvBc6YkQwWJ26mDs/jDoGqU70depbJKx+cphdGyF/E1HWXDo46cr+6Ib1jy6T47qZeLsZQwU7cxMRseTJ6kcOk2e+rqjOixb5CpveXvWw4DS4xRAoNqe0Hmd3P0OAo7LqJ2HA3msk3eRW8bzlkMfAlzY9vnirJcwSotv7usYARgCY4cakeLCf0+w2y4Tvj/MnkzNqsbNbfCb5B5KpGX1NZwqIizXDcwZkR0+wQtwSKZp8lyEkqtWAvXQF36OFAZO6c7I3Mr3uBNT6ZJmJFxMd3nZDsLc5qu9dBCO3pMeMvv3vI1EHSS+XV+qPl1u3tAWDnChFpi5GLSrHULJ911qpvNxNQUmfTq8qph5B0PGArD4dk+dyxxBkPvAfp/aTI84YYOQuE7HdE68S/x648xQ8rMh1C/bSezzdFcJjMz5HUJ+Clh2/xxA1vu7ymA+k0vbqxq48fFvUPES3M5Tagj2/6i5X1+orEYlgfZ5Tzl3TuWf8ODH7Bq1PgPXh+RwPBSLrVh9Eb8DiFPEn7fxh/r9xYwPtCaBd9BEhdDDFlLfyudrSRaBc1ddayreNeG9W5571x7VmGyNnp7QAWP+tPQnZViHsQdh5gm/QySU8tFV38oYHDO2xBCXphOusUuYj9vDy9D4kinM39GTK13TilrKDmG2voWepuCbIYlMeAXXDY=
+    secure: 5fc01a0a-4102-4f1c-9614-9860401c77dc
   app: quigleysweb
   on:
     repo: mike-quigley/QuigleysWeb
